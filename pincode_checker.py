@@ -2,8 +2,8 @@ import requests
 import datetime
 
 # CONFIGURATION
-SHOPIFY_STORE_URL = "https://ship.endurasupplements.com"
-ENDPOINT = "/api/pincode-checker"
+SHOPIFY_STORE_URL = "nicotex-cipla.myshopify.com"
+ENDPOINT = "https://ship.endurasupplements.com/api/pincode-checker"
 TEST_PINCODE = "400001"  # REPLACE WITH A VALID PINCODE
 
 def test_pincode():
