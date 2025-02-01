@@ -3,7 +3,7 @@ import datetime
 
 # CONFIGURATION
 SHOPIFY_STORE_URL = "nicotex-cipla.myshopify.com"
-ENDPOINT = "https://ship.endurasupplements.com/api/pincode-checker"
+ENDPOINT = "api/pincode-checker"
 TEST_PINCODE = "400001"  # REPLACE WITH A VALID PINCODE
 
 def test_pincode():
